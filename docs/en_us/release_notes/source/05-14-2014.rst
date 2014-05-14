@@ -71,7 +71,19 @@ edX Studio
 edX Learning Management System
 ***************************************
 
-* Instructor Dashboard:  
+* The Instructor Dashboard that is presented to course teams by default in the
+  LMS has changed. The Instructor Dashboard that is presented when you click
+  **Instructor** is now the "New Beta" dashboard. The "Standard" dashboard
+  remains available; a button click is required to access it. The two dashboard
+  versions are also relabeled in this release. The version that was previously
+  identified as the "New Beta Dashboard" is now labeled "Instructor Dashboard",
+  and the version previously identified as the "Standard Dashboard" is now
+  labeled "Legacy Dashboard". (LMS-1296)
+
+  The **Staff Debug** viewer for problems is enhanced to include options to
+  adjust a student's grades. On the viewer, you can identify the student by
+  username or email address, and then select **Reset Student Attempts**,
+  **Delete Student State**, or **Rescore Student Submission**.
 
 * Previously when a student clicked **Run Code** for a MatLab problem, the
   entire page was reloaded. This issue has been resolved so that now only the
