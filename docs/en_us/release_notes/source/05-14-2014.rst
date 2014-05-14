@@ -23,16 +23,34 @@ The following documentation is available:
 
   Recent changes include: 
 
-  * 
+  * An updated `Enrollment`_ section to reflect that usernames or email
+    addresses can be used to batch enroll students.
+
+  * An updated `Grade and Answer Data`_ section that reflects new features on
+    the problem Staff Debug viewer for rescoring, resetting attempts, and
+    deleting student state.
+
+  * An updated the `Staffing`_ section that explains the labeling differences
+    between Studio and the LMS with respect to course team roles.
+
+  * An updated `Assign Discussion Administration Roles`_ section to include a
+    note about course staff requiring explicit granting of discussion
+    administration roles.
+
+  * A new `VitalSource E-Reader Tool`_ section.
+    
+  * Updated the `Add Files to a Course`_ section to include warnings about file
+    size.
+
 
 * `edX Data Documentation`_
   
-  Recent changes include: 
-  
-  * 
-  
 
 * `edX Platform Developer Documentation`_
+
+   Recent changes include: 
+
+   * A new section on `Analytics`_ for developers.
   
   
 * `edX XBlock Documentation`_
@@ -43,13 +61,27 @@ The following documentation is available:
 edX Studio
 *************
 
-* 
+* A problem that prevented you from hiding the Wiki in the list of Pages when
+  using Firefox is resolved. (STUD-1581)
 
+* A problem that prevented you from importing a course created on edx.org into
+  edX Edge is resolved. (STUD-1599)
 
 ***************************************
 edX Learning Management System
 ***************************************
 
-* 
+* Instructor Dashboard:  
+
+* Previously when a student clicked **Run Code** for a MatLab problem, the
+  entire page was reloaded. This issue has been resolved so that now only the
+  MatLab problem elements are reloaded. (LMS-2505)
+
+
+****************
+edX Analytics
+****************
+
+* (AN-82, AN-126)
 
 .. include:: links.rst
